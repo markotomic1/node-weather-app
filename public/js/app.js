@@ -1,4 +1,6 @@
 const weatherForm = document.querySelector("form");
+console.log(document.URL);
+
 weatherForm.addEventListener("submit", (e) => {
   e.preventDefault();
   const search = document.querySelector("input");

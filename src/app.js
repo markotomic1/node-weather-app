@@ -81,5 +81,5 @@ app.get("*", (req, res) => {
 });
 
 app.listen(PORT || 5000, () => {
-  console.log("Serrver is up on port 3000");
+  console.log("Serrver is up on port 3000!");
 });
